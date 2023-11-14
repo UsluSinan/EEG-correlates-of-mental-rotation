@@ -1,0 +1,6 @@
+mne==0.23.0
+numpy==1.21.6
+scikit-learn==1.0.2
+shap==0.40.0
+matplotlib==3.5.2
+notebook==6.4.8
