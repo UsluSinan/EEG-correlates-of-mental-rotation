@@ -11,12 +11,6 @@ This is the source code to reproduce the published analyses.
     ├── LICENSE
     └── README.md
 
-### Data
-This folder contains randomly simulated EEG data of 10 participants. Its purpose is to make the code executable and to provide information about the data structure if other data is to be analysed with the scripts.
-
-### Output
-This folder stores the output when running the scripts. It also contains the ICA solutions for the simulated resting-state EEG data with randomly excluded components.
-
 ### Scripts
 All Python wrappers necessary to run the main.py file are stored in this folder.
 
@@ -27,7 +21,7 @@ The code has been tested with Python version 3.7.3 and R version 4.3.2 both of w
 python -m pip install -r requirements.txt
 ```
 
-2. Simulate the EEG data by running in the main directory:
+2. Simulate EEG data by running in the main directory:
 ```sh
 python simulate_eeg_files.py  # simulates EEG data for 10 participants
 ```
